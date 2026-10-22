@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Simthandile Hulana | Hatta — ICT, Innovation & Entrepreneurship</title>
+
+  <meta name="description" content="Meet Simthandile Hulana, known as Hatta: an ICT Business Analysis student at Durban University of Technology, student leader, upcoming content creator and founder of The Hulana Technologies.">
+  <meta name="author" content="Simthandile Hulana">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#090909">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Simthandile Hulana | Hatta">
+  <meta property="og:description" content="Technology, leadership, creativity and the journey of building something meaningful.">
+  <meta property="og:site_name" content="The Official Website of Simthandile Hulana">
+
+  <!-- Replace this with your final website URL once published. -->
+  <link rel="canonical" href="https://github.com/Alicia-Hatta/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Structured data helps search engines understand who this website is about. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "name": "The Official Website of Simthandile Hulana",
+    "description": "The personal profile of Simthandile Hulana, also known as Hatta, an ICT Business Analysis student, student leader and aspiring technology entrepreneur.",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Simthandile Hulana",
+      "alternateName": ["Hatta", "𝓗𝓪𝓽𝓽𝓪🥷🏽"],
+      "url": "https://github.com/Alicia-Hatta/",
+      "jobTitle": "ICT Business Analysis Student and Aspiring Technology Entrepreneur",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Durban University of Technology"
+      },
+      "sameAs": [
+        "https://www.instagram.com/smiley_hulana/",
+        "https://www.tiktok.com/@simthandile_hulana",
+        "https://www.youtube.com/@smileyworld-vloguni"
+      ],
+      "knowsAbout": [
+        "Information and Communication Technology",
+        "Business Analysis",
+        "Cybersecurity",
+        "Entrepreneurship",
+        "Application Development",
+        "Digital Innovation",
+        "Content Creation"
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --background: #090909;
+      --surface: #121212;
+      --surface-light: #191919;
+      --gold: #d8b45a;
+      --gold-light: #f0d58b;
+      --text: #f5f2eb;
+      --muted: #aaa69c;
+      --border: rgba(216, 180, 90, 0.23);
+      --max-width: 1120px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--background);
+      color: var(--text);
+      font-family: "DM Sans", sans-serif;
+      line-height: 1.7;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button, a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 2px solid var(--gold-light);
+      outline-offset: 4px;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(90%, var(--max-width));
+      margin: auto;
+    }
+
+    .gold {
+      color: var(--gold);
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 0.76rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    h1, h2, h3 {
+      font-family: "Playfair Display", Georgia, serif;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      margin-bottom: 18px;
+    }
+
+    .section-intro {
+      color: var(--muted);
+      max-width: 680px;
+      margin-bottom: 38px;
+    }
+
+    .section {
+      padding: 95px 0;
+      scroll-margin-top: 85px;
+    }
+
+    .section-alt {
+      background: #0e0e0e;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 13px 22px;
+      border: 1px solid var(--gold);
+      border-radius: 5px;
+      font-weight: 700;
+      transition: 0.25s ease;
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: #111;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      background: var(--gold-light);
+      color: #111;
+    }
+
+    .btn-outline:hover {
+      border-color: var(--gold-light);
+    }
+
+    /* Navigation */
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(9, 9, 9, 0.94);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-inner {
+      min-height: 76px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .brand {
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .brand span {
+      color: var(--gold);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 23px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      font-size: 0.88rem;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--gold);
+    }
+
+    .menu-toggle {
+      display: none;
+      background: transparent;
+      color: var(--gold);
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      padding: 8px 12px;
+      font-size: 1.25rem;
+      cursor: pointer;
+    }
+
+    /* Hero */
+
+    .hero {
+      min-height: 690px;
+      display: flex;
+      align-items: center;
+      padding: 90px 0;
+      background:
+        radial-gradient(ellipse at 85% 45%, rgba(216, 180, 90, 0.11), transparent 38%),
+        var(--background);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 0.7fr;
+      align-items: center;
+      gap: 65px;
+    }
+
+    .hero h1 {
+      font-size: clamp(3rem, 7vw, 5.8rem);
+      letter-spacing: -2px;
+      margin-bottom: 12px;
+    }
+
+    .hero h1 span {
+      display: block;
+      color: var(--gold);
+    }
+
+    .hero-tagline {
+      font-size: clamp(1.1rem, 2vw, 1.45rem);
+      margin: 20px 0;
+      color: #e4dfd4;
+    }
+
+    .hero-description {
+      color: var(--muted);
+      max-width: 650px;
+      margin-bottom: 28px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .profile-frame {
+      position: relative;
+      max-width: 350px;
+      width: 100%;
+      margin: auto;
+      padding: 12px;
+      border: 1px solid var(--gold);
+      border-radius: 180px 180px 15px 15px;
+    }
+
+    .profile-image {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      border-radius: 170px 170px 10px 10px;
+      background: var(--surface-light);
+    }
+
+    .profile-placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: 5rem;
+      color: var(--gold);
+      background:
+        radial-gradient(circle, #292318 0%, #141414 68%);
+    }
+
+    .profile-caption {
+      text-align: center;
+      padding: 17px 5px 7px;
+      color: var(--gold-light);
+      letter-spacing: 2px;
+      font-size: 0.9rem;
+    }
+
+    /* Quick facts */
+
+    .facts {
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      background: #0d0d0d;
+    }
+
+    .facts-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .fact {
+      padding: 27px 15px;
+      text-align: center;
+      border-right: 1px solid var(--border);
+    }
+
+    .fact:last-child {
+      border-right: 0;
+    }
+
+    .fact strong {
+      display: block;
+      color: var(--gold);
+      font-size: 1rem;
+      margin-bottom: 5px;
+    }
+
+    .fact span {
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    /* General cards */
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .card {
+      padding: 27px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      transition: transform 0.25s ease, border-color 0.25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: var(--gold);
+    }
+
+    .card-icon {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      font-size: 1.35rem;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 18px;
+    }
+
+    .tag {
+      padding: 5px 10px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--gold-light);
+      font-size: 0.77rem;
+    }
+
+    /* Story */
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 55px;
+      align-items: start;
+    }
+
+    .story-note {
+      border-left: 3px solid var(--gold);
+      padding: 22px 25px;
+      background: var(--surface);
+      color: var(--muted);
+      border-radius: 0 8px 8px 0;
+    }
+
+    .story-copy p {
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    /* Timeline */
+
+    .timeline {
+      border-left: 1px solid var(--gold);
+      margin-left: 8px;
+      padding-left: 28px;
+    }
+
+    .timeline-item {
+      position: relative;
+      padding: 0 0 30px;
+    }
+
+    .timeline-item:last-child {
+      padding-bottom: 0;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -34px;
+      top: 7px;
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 0 5px rgba(216, 180, 90, 0.1);
+    }
+
+    .timeline-item h3 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+
+    .timeline-item p {
+      color: var(--muted);
+    }
+
+    .status {
+      display: inline-block;
+      font-family: "DM Sans", sans-serif;
+      color: var(--gold-light);
+      font-size: 0.72rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+
+    /* Projects */
+
+    .project-card {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .project-card .project-copy {
+      flex: 1;
+    }
+
+    .project-link {
+      display: inline-block;
+      color: var(--gold);
+      font-weight: 700;
+      margin-top: 20px;
+    }
+
+    /* Socials */
+
+    .social-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .social-card {
+      padding: 28px 22px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--surface);
+      text-align: center;
+      transition: 0.25s ease;
+    }
+
+    .social-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold);
+    }
+
+    .social-icon {
+      color: var(--gold);
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .social-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 6px;
+    }
+
+    .social-card p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      overflow-wrap: anywhere;
+    }
+
+    .social-action {
+      display: inline-block;
+      margin-top: 15px;
+      color: var(--gold-light);
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    /* Contact */
+
+    .contact-panel {
+      padding: 45px;
+      border: 1px solid var(--border);
+      background:
+        radial-gradient(ellipse at top right, rgba(216, 180, 90, 0.1), transparent 55%),
+        var(--surface);
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .contact-panel p {
+      max-width: 650px;
+      margin: 0 auto 25px;
+      color: var(--muted);
+    }
+
+    /* Footer */
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 0;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .footer-inner strong {
+      color: var(--gold);
+    }
+
+    /* Mobile layout */
+
+    @media (max-width: 900px) {
+      .nav-links {
+        gap: 13px;
+      }
+
+      .nav-links a {
+        font-size: 0.8rem;
+      }
+
+      .hero-grid {
+        gap: 35px;
+      }
+
+      .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 700px) {
+      .nav-inner {
+        min-height: 68px;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 68px;
+        left: 0;
+        right: 0;
+        padding: 18px 5% 24px;
+        background: #0b0b0b;
+        border-bottom: 1px solid var(--border);
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        display: block;
+        padding: 11px 0;
+        font-size: 0.95rem;
+      }
+
+      .hero {
+        min-height: auto;
+        padding: 65px 0;
+      }
+
+      .hero-grid,
+      .story-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-grid {
+        gap: 45px;
+      }
+
+      .hero h1 {
+        font-size: clamp(2.8rem, 13vw, 4.5rem);
+      }
+
+      .profile-frame {
+        max-width: 270px;
+      }
+
+      .facts-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .fact:nth-child(2) {
+        border-right: 0;
+      }
+
+      .fact:nth-child(1),
+      .fact:nth-child(2) {
+        border-bottom: 1px solid var(--border);
+      }
+
+      .section {
+        padding: 70px 0;
+      }
+
+      .card-grid,
+      .social-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-panel {
+        padding: 30px 20px;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <nav class="container nav-inner" aria-label="Main navigation">
+      <a href="#home" class="brand">HULANA<span>.</span></a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navLinks"
+      >☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#development">Development</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#socials">Socials</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Student · Creator · Future Founder</p>
+
+          <h1>
+            Simthandile
+            <span>Hulana.</span>
+          </h1>
+
+          <p class="hero-tagline">
+            Welcome to my world — <strong class="gold">𝓗𝓪𝓽𝓽𝓪🥷🏽</strong>
+          </p>
+
+          <p class="hero-description">
+            I am an ICT Business Analysis student, student leader and
+            upcoming content creator with a growing passion for technology,
+            entrepreneurship, leadership and meaningful innovation.
+            I am learning, building and turning ideas into possibilities —
+            one step at a time.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#about">Discover My Story ↗</a>
+            <a class="btn btn-outline" href="#projects">Explore My Work</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="profile-frame">
+            <!-- Add your photo at images/profile.jpg.
+                 If you do not have a photo yet, the initials will appear. -->
+            <img
+              src="image/profile.jpeg"
+              alt="Portrait of Simthandile Hulana, also known as Hatta"
+              class="profile-image"
+              onerror="this.outerHTML='<div class=&quot;profile-image profile-placeholder&quot; role=&quot;img&quot; aria-label=&quot;Simthandile Hulana initials&quot;>SH</div>'"
+            >
+            <div class="profile-caption">𝓗𝓪𝓽𝓽𝓪🥷🏽</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick facts -->
+    <section class="facts" aria-label="Profile highlights">
+      <div class="container facts-grid">
+        <div class="fact">
+          <strong>DUT</strong>
+          <span>University Student</span>
+        </div>
+        <div class="fact">
+          <strong>DICTBA</strong>
+          <span>ICT Business Analysis</span>
+        </div>
+        <div class="fact">
+          <strong>Class Representative</strong>
+          <span>Student Leadership</span>
+        </div>
+        <div class="fact">
+          <strong>Future Founder</strong>
+          <span>Technology & Innovation</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container story-grid">
+        <div>
+          <p class="eyebrow">A little about me</p>
+          <h2>More than a title. <span class="gold">A journey.</span></h2>
+
+          <div class="story-note">
+            I believe that where you begin does not have to determine
+            how far you can go. Growth comes from staying curious,
+            taking responsibility and being willing to learn.
+          </div>
+        </div>
+
+        <div class="story-copy">
+          <p>
+            My name is <strong>Simthandile Hulana</strong>, and I am known
+            online as <strong class="gold">Hatta</strong>. I am an 18-year-old
+            student from Umzimkulu, KwaZulu-Natal, currently studying
+            ICT Business Analysis at Durban University of Technology's
+            Indumiso Campus in Pietermaritzburg.
+          </p>
+
+          <p>
+            My journey combines technology, business thinking, creativity
+            and leadership. I am interested in understanding real-world
+            problems and exploring how digital solutions can make systems
+            more useful, accessible and effective.
+          </p>
+
+          <p>
+            Beyond my studies, I am growing as a content creator and
+            developing ideas through The Hulana Technologies. I know that
+            there is still much to learn, and that is part of the journey:
+            improving my skills, learning from people around me and
+            turning ambition into consistent action.
+          </p>
+
+          <p>
+            This website is my digital home — a place to document my
+            progress, share what I am building and connect my interests
+            in technology, entrepreneurship and personal growth.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <p class="eyebrow">Learning & education</p>
+        <h2>Building my <span class="gold">foundation.</span></h2>
+        <p class="section-intro">
+          Every stage of education contributes to the person and professional
+          I am working towards becoming.
+        </p>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🎓</div>
+            <h3>Durban University of Technology</h3>
+            <p>
+              Currently pursuing ICT Business Analysis (DICTBA) at
+              DUT's Indumiso Campus in Pietermaritzburg, within the
+              Faculty of Accounting and Informatics.
+            </p>
+            <div class="tag-list">
+              <span class="tag">Current studies</span>
+              <span class="tag">ICT</span>
+              <span class="tag">Business analysis</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">📚</div>
+            <h3>School achievement</h3>
+            <p>
+              A Top 10 achiever at DRC High School for Commerce.
+              This milestone forms part of my academic journey and
+              continues to motivate me to grow.
+            </p>
+            <div class="tag-list">
+              <span class="tag">Academic achievement</span>
+              <span class="tag">Perseverance</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">💡</div>
+            <h3>Skills in progress</h3>
+            <p>
+              Developing my understanding of business processes,
+              application development, databases, cybersecurity and
+              how technology can support organisations.
+            </p>
+            <div class="tag-list">
+              <span class="tag">Continuous learning</span>
+              <span class="tag">Practical projects</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leadership -->
+    <section class="section" id="leadership">
+      <div class="container">
+        <p class="eyebrow">Responsibility & service</p>
+        <h2>Learning to lead with <span class="gold">purpose.</span></h2>
+        <p class="section-intro">
+          Leadership is not only about having a title. It is about listening,
+          communicating, serving others and taking responsibility.
+        </p>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🤝</div>
+            <h3>DICTBA Class Representative</h3>
+            <p>
+              Serving as a Level 1 ICT Business Analysis class representative
+              in the FIM Department at DUT, helping support communication
+              between students and the relevant academic structures.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🌍</div>
+            <h3>Ubuntu in action</h3>
+            <p>
+              Learning the value of teamwork, mutual respect, accountability
+              and community. I see leadership as an opportunity to contribute,
+              not simply to stand out.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🚀</div>
+            <h3>Growing through experience</h3>
+            <p>
+              Using class leadership, group projects and innovation
+              activities to develop confidence, communication,
+              collaboration and problem-solving skills.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content creation -->
+    <section class="section section-alt" id="creator">
+      <div class="container story-grid">
+        <div>
+          <p class="eyebrow">My creative side</p>
+          <h2>Documenting the journey, <span class="gold">not just the destination.</span></h2>
+        </div>
+
+        <div class="story-copy">
+          <p>
+            I am an upcoming content creator building a personal brand
+            around student life, technology, ambition and personal growth.
+            Through my content, I want to share experiences, lessons and
+            moments from my journey.
+          </p>
+
+          <p>
+            My creator identity, <strong class="gold">𝓗𝓪𝓽𝓽𝓪🥷🏽</strong>,
+            reflects the personal brand I am growing across social platforms.
+            I am interested in creating content that feels relatable while
+            continuing to learn how to communicate and create more effectively.
+          </p>
+
+          <p>
+            This is a work in progress. I am focused on consistency,
+            improving my craft and letting the journey develop authentically.
+          </p>
+
+          <a class="btn btn-outline" href="#socials">Find Me Online ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional development -->
+    <section class="section" id="development">
+      <div class="container">
+        <p class="eyebrow">Certifications & professional development</p>
+        <h2>Preparing for <span class="gold">what comes next.</span></h2>
+        <p class="section-intro">
+          My professional development journey is about building useful
+          knowledge, strengthening my technical foundation and preparing
+          to contribute meaningfully in the technology industry.
+        </p>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🛡️</div>
+            <span class="status">Completed</span>
+            <h3>Diploma in Cybersecurity</h3>
+            <p>
+              Completed through Alison. This learning experience helped
+              strengthen my foundation in cybersecurity and digital
+              safety, supporting my wider interest in information technology.
+            </p>
+            <div class="tag-list">
+              <span class="tag">Alison</span>
+              <span class="tag">Cybersecurity</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🌐</div>
+            <span class="status">Ongoing learning</span>
+            <h3>Cisco Networking Academy</h3>
+            <p>
+              Continuing to develop technical knowledge through Cisco
+              learning and Credly digital badges. My focus is on expanding
+              my IT knowledge and building skills that complement my studies.
+            </p>
+            <div class="tag-list">
+              <span class="tag">Cisco</span>
+              <span class="tag">Credly badges</span>
+              <span class="tag">IT skills</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">📈</div>
+            <span class="status">Upcoming goals</span>
+            <h3>Continuous professional growth</h3>
+            <p>
+              My next steps include continuing to strengthen my business
+              analysis, programming, cybersecurity and digital innovation
+              skills, while applying what I learn through practical projects
+              and future professional opportunities.
+            </p>
+            <div class="tag-list">
+              <span class="tag">Business analysis</span>
+              <span class="tag">Development</span>
+              <span class="tag">Innovation</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="section-intro" style="margin-top: 28px; margin-bottom: 0;">
+          I see professional development as a continuous process:
+          learn, practise, reflect, improve and keep moving forward.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <p class="eyebrow">Ideas into action</p>
+        <h2>Projects & <span class="gold">innovation.</span></h2>
+        <p class="section-intro">
+          I am exploring how technology can help solve practical problems.
+          These projects reflect my interests in business systems,
+          responsible innovation and community impact.
+        </p>
+
+        <div class="card-grid">
+          <article class="card project-card">
+            <div class="project-copy">
+              <div class="card-icon" aria-hidden="true">💳</div>
+              <span class="status">Developing project</span>
+              <h3>Smart Vendor Pay</h3>
+              <p>
+                A vendor and invoice workflow concept designed to support
+                invoice recording, verification and payment-process visibility.
+                The current prototype supports invoice and workflow functions.
+                More advanced AI-assisted verification and automation are
+                future development goals, not features to assume are already live.
+              </p>
+              <div class="tag-list">
+                <span class="tag">Fintech concept</span>
+                <span class="tag">Invoice workflows</span>
+                <span class="tag">Automation goals</span>
+              </div>
+            </div>
+            <!-- Add a verified public project/demo link here when ready. -->
+          </article>
+
+          <article class="card project-card">
+            <div class="project-copy">
+              <div class="card-icon" aria-hidden="true">🌊</div>
+              <span class="status">Proposed concept</span>
+              <h3>Dusi River Smart Pollution Monitoring & Response System</h3>
+              <p>
+                A proposed technology concept exploring how sensors,
+                mapping, citizen reports and digital evidence could support
+                earlier pollution detection and coordinated responses in the
+                Dusi River area.
+              </p>
+              <div class="tag-list">
+                <span class="tag">Environmental technology</span>
+                <span class="tag">GIS concepts</span>
+                <span class="tag">Community impact</span>
+              </div>
+              <p style="margin-top: 15px;">
+                The concept would support—not replace—laboratory testing,
+                professional investigation or action by responsible authorities.
+              </p>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-copy">
+              <div class="card-icon" aria-hidden="true">🏢</div>
+              <span class="status">Entrepreneurial vision</span>
+              <h3>The Hulana Technologies</h3>
+              <p>
+                My technology brand and long-term entrepreneurial vision:
+                a space for developing digital ideas, exploring practical
+                solutions and growing into a technology founder.
+              </p>
+              <div class="tag-list">
+                <span class="tag">Entrepreneurship</span>
+                <span class="tag">Digital solutions</span>
+                <span class="tag">Future growth</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section">
+      <div class="container">
+        <p class="eyebrow">Areas I am developing</p>
+        <h2>A foundation for <span class="gold">the future.</span></h2>
+        <p class="section-intro">
+          These are areas I am learning about, exploring or working to improve
+          through my studies and projects—not a claim that I have mastered all
+          of them.
+        </p>
+
+        <div class="card">
+          <div class="tag-list" style="margin-top: 0;">
+            <span class="tag">Business Analysis</span>
+            <span class="tag">C# & Application Development</span>
+            <span class="tag">Database Fundamentals</span>
+            <span class="tag">Cybersecurity</span>
+            <span class="tag">Digital Innovation</span>
+            <span class="tag">Entrepreneurship</span>
+            <span class="tag">Problem-Solving</span>
+            <span class="tag">Communication</span>
+            <span class="tag">Student Leadership</span>
+            <span class="tag">Content Creation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social media -->
+    <section class="section section-alt" id="socials">
+      <div class="container">
+        <p class="eyebrow">Let's connect</p>
+        <h2>Find me in my <span class="gold">digital world.</span></h2>
+        <p class="section-intro">
+          Follow along as I share content, learn new skills and document
+          my journey through student life, creativity and technology.
+        </p>
+
+        <div class="social-grid">
+          <a
+            class="social-card"
+            href="https://www.instagram.com/smiley_hulana/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Hatta on Instagram"
+          >
+            <div class="social-icon" aria-hidden="true">◎</div>
+            <h3>Instagram</h3>
+            <p>@smiley_hulana</p>
+            <p>Creator identity: 𝓗𝓪𝓽𝓽𝓪🥷🏽</p>
+            <span class="social-action">Visit profile ↗</span>
+          </a>
+
+          <a
+            class="social-card"
+            href="https://www.tiktok.com/@simthandile_hulana"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Hatta on TikTok"
+          >
+            <div class="social-icon" aria-hidden="true">♪</div>
+            <h3>TikTok</h3>
+            <p>@simthandile_hulana</p>
+            <p>Creator identity: 𝓗𝓪𝓽𝓽𝓪🥷🏽</p>
+            <span class="social-action">Visit profile ↗</span>
+          </a>
+
+          <a
+            class="social-card"
+            href="https://www.youtube.com/@smileyworld-vloguni"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit SmileyWorld on YouTube"
+          >
+            <div class="social-icon" aria-hidden="true">▷</div>
+            <h3>YouTube</h3>
+            <p>SmileyWorld · VlogUni</p>
+            <p>Student life, stories and creativity</p>
+            <span class="social-action">Visit channel ↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-panel">
+          <p class="eyebrow">The journey continues</p>
+          <h2>Let's build something <span class="gold">meaningful.</span></h2>
+          <p>
+            I am open to learning opportunities, meaningful collaborations
+            and conversations around technology, student leadership,
+            entrepreneurship and digital innovation.
+          </p>
+          <a
+            class="btn btn-primary"
+            href="https://www.instagram.com/smiley_hulana/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Connect with me ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-inner">
+      <p>© <span id="currentYear"></span> <strong>Simthandile Hulana</strong>. All rights reserved.</p>
+      <p>Built with purpose by <strong>𝓗𝓪𝓽𝓽𝓪🥷🏽</strong>.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Automatically update the copyright year.
+    document.getElementById("currentYear").textContent =
+      new Date().getFullYear();
+
+    // Mobile navigation menu.
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", function () {
+      const isOpen = navLinks.classList.toggle("open");
+
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute(
+        "aria-label",
+        isOpen ? "Close navigation menu" : "Open navigation menu"
+      );
+      menuToggle.textContent = isOpen ? "✕" : "☰";
+    });
+
+    // Close the mobile menu after selecting a section.
+    navLinks.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        navLinks.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Open navigation menu");
+        menuToggle.textContent = "☰";
+      });
+    });
+  </script>
+
+</body>
+</html>
